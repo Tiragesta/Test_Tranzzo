@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Test_TRANZZO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="site-header">
+            <div class="site-logo">
+                <!--<img src="img/svg/logo.svg" class="site-logo__name">-->
+                <img srcset="img/cryptoexch/cryptoexch.png 320w, img/cryptoexch/cryptoexch@2x.png 1440w" src="img/cryptoexch/cryptoexch.png" class="site-logo__name" width="193px">
+            </div>
+            <div class="site-menu">
+                <a class="site-menu__item" href="#">Обменять</a>
+                <a class="site-menu__item" href="#">Резервы</a>
+                <a class="site-menu__item" href="#">Как мы работаем</a>
+                <a class="site-menu__item point" href="#">Faq</a>
+                <a class="site-menu__item" href="#">Документы</a>
+                <a class="site-menu__item" href="#">Личный кабинет</a>
+            </div>
+
+            <!--<div class="site-nav">
+                <img class="icon-menu" src="img/menu.svg" />
+            </div>-->
+
+            <div class="container">
+                <input type="checkbox" id="check-menu">
+                <label for="check-menu" class="label"></label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+                <nav class="main-menu">
+                    <a class="site-menu__item" href="#">Обменять</a>
+                    <a class="site-menu__item" href="#">Резервы</a>
+                    <a class="site-menu__item" href="#">Как мы работаем</a>
+                    <a class="site-menu__item point" href="#">Faq</a>
+                    <a class="site-menu__item" href="#">Документы</a>
+                    <a class="site-menu__item" href="#">Личный кабинет</a>
+                </nav>
+            </div>
+
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="main-container__about">
+                    <h1>Меняйте валюты как вам удобно!</h1>
+                    <p>Просто выберите интересующую вас валюту из перечня доступых, и мы обменяем ее по самому выгодному курсу.</p>
+                    <img src="img/trustpilot/trustpilot.png" srcset="img/trustpilot/trustpilot.png 320w, img/trustpilot/trustpilot@2x.png 1439w" class="trustpilot" />
+                </div>
+                <div class="exchange">
+                    <h2>Выберете одно из направлений обмена</h2>
+                    <div class="exchange-menu">
+                        <div class="exchange-option">
+                            <img src="img/bitcoin/bitcoin.png" srcset="img/bitcoin/bitcoin.png 320w, img/bitcoin/bitcoin@2x.png 1440w" class="bitcoin" width="26px" height="26px" data-exchange="img/bitcoin/bitcoin.png" alt="Bitcoin BTN">
+                            <img src="img/svg/arrow-right.svg" class="arrow">
+                            <img src="img/card/card.png" srcset="img/card/card.png 320w, img/card/card@2x.png 1440w" class="card" width="27px" height="26px" data-exchange="img/card/card.png" alt="Visa/Mastercard UAH">
+                        </div>
+                        <div class="exchange-option">
+                            <img src="img/bitcoin/bitcoin.png" srcset="img/bitcoin/bitcoin.png 320w, img/bitcoin/bitcoin@2x.png 1440w" class="bitcoin" width="26px" height="26px" data-exchange="img/bitcoin/bitcoin.png" alt="Bitcoin BTN">
+                            <img src="img/svg/arrow-right.svg" class="arrow">
+                            <img src="img/etherium/etherium.png" srcset="img/etherium/etherium.png 320w, img/etherium/etherium@2x.png 1440w" class="etherium" width="26px" height="26px" data-exchange="img/etherium/etherium.png" alt="Etherium ETH">
+                        </div>
+                        <div class="exchange-option">
+                            <img src="img/bitcoin/bitcoin.png" srcset="img/bitcoin/bitcoin.png 320w, img/bitcoin/bitcoin@2x.png 1440w" class="bitcoin" width="26px" height="26px" data-exchange="img/bitcoin/bitcoin.png" alt="Bitcoin BTN">
+                            <img src="img/svg/arrow-right.svg" class="arrow">
+                            <img src="img/advcash/advcash.png" srcset="img/advcash/advcash.png 320w, img/advcash/advcash@2x.png 1440w" class="advcash" width="27px" height="26px" data-exchange="img/advcash/advcash.png" alt="AdvCash">
+                        </div>
+                    </div>
+
+                    <div class="exchange-settings">
+                        <div class="exchange-input">
+                            <p class="exchange-input__text">Вы отправляете</p>
+                            <input />
+                        </div>
+                        <div class="exchange-start">
+                            <img src="img/card/card.png" width="27px" height="26px" />
+                            <p class="text text_1">Visa/Mastercard UAH</p>
+                            <img src="img/dropdown.png" width="10px" height="10px"/>
+                        </div>
+                        <nav class="nav-menu">
+                            <ul>
+                                <li class="list-item"><img src="img/bitcoin/bitcoin.png" width="26px" height="26px" data-exchange="img/bitcoin/bitcoin.png" alt="Bitcoin BTN">Bitcoin BTN</li>
+                                <li class="list-item"><img src="img/card/card.png" width="26px" height="26px" data-exchange="img/card/card.png">Visa/Mastercard UAH</li>
+                                <li class="list-item"><img src="img/advcash/advcash.png" width="26px" height="26px" data-exchange="img/advcash/advcash.png">AdvCash</li>
+                                <li class="list-item"><img src="img/etherium/etherium.png" width="26px" height="26px" data-exchange="img/etherium/etherium.png">Etherium ETH</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <p class="comment">Комиссия за обмен <span>23 UAH</span></p>
+
+                    <div class="exchange-settings">
+                        <div class="exchange-result">
+                            <p class="exchange-result__text">Вы получите</p>
+                            <input />
+                        </div>
+                        <div class="exchange-end">
+                            <img src="img/card/card.png" width="27px" height="26px" />
+                            <p class="text text_2">Visa/Mastercard UAH</p>
+                            <img src="img/dropdown.png" width="10px" height="10px" />
+                        </div>
+
+                        <nav class="nav-menu-end">
+                            <ul>
+                                <li class="list-item"><img src="img/bitcoin/bitcoin.png" width="26px" height="26px" data-exchange="img/bitcoin/bitcoin.png" alt="Bitcoin BTN">Bitcoin BTN</li>
+                                <li class="list-item"><img src="img/card/card.png" width="26px" height="26px" data-exchange="img/card/card.png">Visa/Mastercard UAH</li>
+                                <li class="list-item"><img src="img/advcash/advcash.png" width="26px" height="26px" data-exchange="img/advcash/advcash.png">AdvCash</li>
+                                <li class="list-item"><img src="img/etherium/etherium.png" width="26px" height="26px" data-exchange="img/etherium/etherium.png">Etherium ETH</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="agry">Я согласен с правилами сервиса</label>
+                    <button>Обменять</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

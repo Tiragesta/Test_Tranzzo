@@ -1,0 +1,204 @@
+﻿@media (max-width: 1439px){
+    .site-menu{
+        display: none;
+    }
+    /*.icon-menu{
+        width: 35px;
+        height: 35px;
+    }*/
+
+    .container {
+        width: 320px;
+        position: relative;
+        color: #000000;
+        text-align: center;
+        height: 35px;
+        font-family: 'Roboto';
+    }
+
+    #check-menu {
+        display: none;
+    }
+
+    .label {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        z-index: 2;
+        line-height: 40px;
+    }
+
+    .burger-line {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        width: 35px;
+        height: 2px;
+        background-color: #000000;
+        transition: .5s all;
+    }
+
+    .second, .third {
+        top: 18px;
+    }
+
+    .fourth {
+        top: 28px;
+    }
+
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+    }
+
+    .site-menu__item {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        color: #ffffff;
+        text-decoration: none;
+        border-top: 1px solid #331139;
+        background-color: #000000;
+    }
+
+        .site-menu__item:hover {
+            background-color: #331139;
+        }
+
+    #check-menu:checked ~ .main-menu {
+        max-height: 500px;
+        font-size: 16px;
+    }
+
+    #check-menu:checked ~ .first {
+        display: none;
+    }
+
+    #check-menu:checked ~ .second {
+        transform: rotate(45deg);
+    }
+
+    #check-menu:checked ~ .third {
+        transform: rotate(-45deg);
+    }
+
+    #check-menu:checked ~ .fourth {
+        display: none;
+    }
+    .trustpilot{
+        width: 65px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .exchange-menu {
+        height: 110px;
+        flex-wrap: wrap;
+    }
+
+    .exchange-option{
+        width: 100px;
+    }
+
+    .exchange-menu{
+        height: 55px;
+    }
+
+    .exchange-settings{
+        width: 300px;
+    }
+    .exchange-input, .exchange-result {
+        width: 110px;
+    }
+    .exchange-start, .exchange-end {
+        width: 160px;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+    button {
+        margin-left: 65px;
+    }
+    h1{
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .list-item{
+        width: 300px;
+    }
+
+    /*p{
+        margin-bottom: 20px;
+    }*/
+} 
+
+@media (min-width: 1440px){
+    body{
+        width: 1440px;
+        height: 820px;
+        margin: 0 auto;
+    }
+
+    .container{
+        display: none;
+    }
+
+    .site-header{
+        width: 1440px;
+        height: 65px;
+    }
+
+    .site-menu {
+        width: 758px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 95px;
+        margin-left: 30px;
+    }
+    .main-container__about{
+        width: 541px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 444px;
+    }
+
+    .exchange {
+        width: 444px;
+        height: 495px;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+    button {
+        margin-left: 181px;
+    }
+
+
+}
